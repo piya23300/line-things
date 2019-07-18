@@ -17,7 +17,7 @@ let clickCount = 0;
 // -------------- //
 
 window.onload = () => {
-  initializeApp();
+    initializeApp();
 };
 
 // ----------------- //
@@ -25,10 +25,10 @@ window.onload = () => {
 // ----------------- //
 
 function handlerToggleLed() {
-  ledState = !ledState;
+    ledState = !ledState;
 
-  uiToggleLedButton(ledState);
-  liffToggleDeviceLedState(ledState);
+    uiToggleLedButton(ledState);
+    liffToggleDeviceLedState(ledState);
 }
 
 // ------------ //
